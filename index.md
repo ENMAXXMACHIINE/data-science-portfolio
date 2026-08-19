@@ -4,3 +4,10 @@ UNC Charlotte
 ## About Me
 Welcome to my Data Science Studio portfolio.
 This website will document my learning and projects throughout the semester.
+
+## Projects
+I will list projects here
+
+## Blog
+A mog with a Blog!
+

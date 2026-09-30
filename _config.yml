@@ -1,6 +1,11 @@
 title: "Aseem | Data Science Portfolio"
 description: "Data Science, AI, Machine Learning, and Design"
+author: Aseem 
+
 url: "https://enmaxxmachiine.github.io"
 baseurl: "/data-science-portfolio"
-theme: null
-markdown: kramdown
+theme: jekyll-theme-minimal
+github:
+  is_project_page:false
+
+  

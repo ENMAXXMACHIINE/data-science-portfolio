@@ -34,6 +34,15 @@ permalink: /projects/anthropometric-classification/
   </div>
 </section>
 
+<section class="case-section">
+  <div class="section-label">AI USAGE & DISCLOSURE</div>
+  <div>
+    <h2>How this project was built.</h2>
+    <p><strong>Code & Testing:</strong> LLMs were used to assist with classifier implementation and evaluation code. All model selection, validation strategy, and interpretation decisions are based on independent analysis.</p>
+    <p><strong>Sources:</strong> Draws on multi-class classification literature, model evaluation frameworks, and cross-validation methodology.</p>
+  </div>
+</section>
+
 <div class="case-footer">
   <a class="button" href="https://github.com/ENMAXXMACHIINE">View Code →</a>
   <a class="link" href="{{ '/projects/' | relative_url }}">Back to projects</a>

@@ -3,18 +3,15 @@ layout: default
 title: About
 permalink: /about/
 ---
-<div class="profile-banner">
-  <div class="profile-photo-wrap">
-    <img class="profile-photo" src="{{ '/Maxx4.jpg' | relative_url }}" alt="Aseem Bradley headshot">
-  </div>
-  <div class="profile-copy">
+<div class="profile-header">
+  <img class="profile-pic" src="https://github.com/ENMAXXMACHIINE.png" alt="Aseem Bradley GitHub profile">
+  <div>
     <p class="eyebrow">ABOUT</p>
     <h1>Data, systems, and design.</h1>
-    <p class="big">I'm Aseem Bradley, a data scientist and builder interested in the space between analytical systems, decision-making, and clear communication.</p>
   </div>
 </div>
 
-<p class="lead">My work sits at the intersection of machine learning, responsible modeling, and practical software thinking. I enjoy turning messy, ambiguous problems into structured systems that can be tested, explained, and improved.</p>
+<p class="lead">I'm Aseem Bradley, a data scientist and builder interested in the space between analytical systems, decision-making, and clear communication. My work sits at the intersection of machine learning, responsible modeling, and practical software thinking.</p>
 
 <section class="rule-section">
   <div class="label">BACKGROUND</div>
@@ -37,5 +34,13 @@ permalink: /about/
     <span>Git</span>
     <span>Research</span>
     <span>Visualization</span>
+  </div>
+</section>
+
+<section class="rule-section">
+  <div class="label">RESUME</div>
+  <div>
+    <h2>Education, experience, and projects.</h2>
+    <p><a class="link" href="{{ '/resume.pdf' | relative_url }}">Download Resume (PDF) →</a></p>
   </div>
 </section>

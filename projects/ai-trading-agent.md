@@ -63,7 +63,7 @@ permalink: /projects/ai-trading-agent/
   <div class="section-label">WHAT DIDN'T</div>
   <div class="callout warning">
     <h2>The ML edge is not certified.</h2>
-    <p>The validation report explicitly does not support an “AI-driven edge” claim. The rule-based signal is the certified signal. Machine-learning forecasts are included but not independently validated for live trading.</p>
+    <p>The validation report explicitly does not support an "AI-driven edge" claim. The rule-based signal is the certified signal. Machine-learning forecasts are included but not independently validated for live trading.</p>
   </div>
 </section>
 
@@ -75,6 +75,16 @@ permalink: /projects/ai-trading-agent/
     <article><b>Three configuration decisions remain open</b><p>Target weights, f3 sector cap, and f7 daily-loss cap require explicit sign-off.</p></article>
     <article><b>Concentration remains structural</b><p>Effective breadth is 7.2 of 12 nominal positions; semiconductors represented 33.32% against a proposed 30% cap.</p></article>
     <article><b>Legal review is separate from technical validation</b><p>Any third-party offering requires qualified legal and compliance review. Technical certification does not establish regulatory readiness.</p></article>
+  </div>
+</section>
+
+<section class="case-section">
+  <div class="section-label">AI USAGE & DISCLOSURE</div>
+  <div>
+    <h2>How this project was built.</h2>
+    <p><strong>Code Development:</strong> Large language models (LLMs) were used to assist with code structure, algorithm research, and documentation. All code was reviewed and validated for correctness and appropriateness before deployment.</p>
+    <p><strong>Analysis & Strategy:</strong> All strategic decisions, validation logic, and risk frameworks were developed through independent research and domain expertise. AI tools supported exploration but did not drive core conclusions.</p>
+    <p><strong>Sources:</strong> Research draws on quantitative finance literature, Monte Carlo simulation methodology, and portfolio optimization frameworks.</p>
   </div>
 </section>
 

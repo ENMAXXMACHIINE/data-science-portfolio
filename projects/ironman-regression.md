@@ -34,6 +34,15 @@ permalink: /projects/ironman-regression/
   </div>
 </section>
 
+<section class="case-section">
+  <div class="section-label">AI USAGE & DISCLOSURE</div>
+  <div>
+    <h2>How this project was built.</h2>
+    <p><strong>Code & Visualization:</strong> LLMs assisted with plotting code and regression diagnostics. All statistical conclusions and interpretations are based on independent analysis of the data.</p>
+    <p><strong>Sources:</strong> Draws on applied regression methodology and exploratory data analysis principles.</p>
+  </div>
+</section>
+
 <div class="case-footer">
   <a class="button" href="https://github.com/ENMAXXMACHIINE">View Code →</a>
   <a class="link" href="{{ '/projects/' | relative_url }}">Back to projects</a>

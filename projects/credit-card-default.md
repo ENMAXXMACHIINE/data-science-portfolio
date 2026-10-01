@@ -41,6 +41,15 @@ permalink: /projects/credit-card-default/
   </div>
 </section>
 
+<section class="case-section">
+  <div class="section-label">AI USAGE & DISCLOSURE</div>
+  <div>
+    <h2>How this project was built.</h2>
+    <p><strong>Code & Analysis:</strong> LLMs were used to assist with model implementation, feature engineering techniques, and documentation. All modeling decisions and interpretations are based on independent analysis and validation.</p>
+    <p><strong>Sources:</strong> Draws on classification metrics literature, imbalanced learning strategies, and credit risk modeling principles.</p>
+  </div>
+</section>
+
 <div class="case-footer">
   <a class="button" href="https://github.com/ENMAXXMACHIINE">View Code →</a>
   <a class="link" href="{{ '/projects/' | relative_url }}">Back to projects</a>

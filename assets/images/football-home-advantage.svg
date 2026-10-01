@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420">
+  <rect width="760" height="420" fill="#f8f8f5"/>
+  <g font-family="Arial, sans-serif">
+    <text x="380" y="40" text-anchor="middle" font-size="22" font-weight="700">Home Win Rate by Team</text>
+    <text x="380" y="390" text-anchor="middle" font-size="12" fill="#606060">Team</text>
+    <g transform="translate(80,70)">
+      <line x1="0" y1="275" x2="600" y2="275" stroke="#333"/>
+      <line x1="0" y1="0" x2="0" y2="275" stroke="#333"/>
+      <g fill="#29466e">
+        <rect x="20" y="180" width="30" height="95"/>
+        <rect x="70" y="160" width="30" height="115"/>
+        <rect x="120" y="150" width="30" height="125"/>
+        <rect x="170" y="170" width="30" height="105"/>
+        <rect x="220" y="195" width="30" height="80"/>
+        <rect x="270" y="215" width="30" height="60"/>
+        <rect x="320" y="230" width="30" height="45"/>
+        <rect x="370" y="240" width="30" height="35"/>
+        <rect x="420" y="255" width="30" height="20"/>
+      </g>
+      <g font-size="10" fill="#555">
+        <text x="35" y="295">North</text>
+        <text x="85" y="295">Riv</text>
+        <text x="130" y="295">King</text>
+        <text x="180" y="295">East</text>
+        <text x="230" y="295">Lake</text>
+        <text x="280" y="295">West</text>
+        <text x="330" y="295">Hill</text>
+        <text x="380" y="295">Pine</text>
+        <text x="430" y="295">Brook</text>
+      </g>
+      <g font-size="11" fill="#666">
+        <text x="-18" y="270">0%</text>
+        <text x="-22" y="205">50%</text>
+        <text x="-22" y="140">60%</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,4 +1,6 @@
 title: "Aseem | Data Science Portfolio"
+url: "https://enmaxxmachiine.github.io"
+baseurl: "/data-science-portfolio"
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-relative-links

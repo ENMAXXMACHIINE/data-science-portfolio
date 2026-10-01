@@ -5,21 +5,21 @@ permalink: /projects/anthropometric-classification/
 ---
 <p class="eyebrow">04 · CLASSIFICATION · MODEL EVALUATION</p>
 <h1>Anthropometric Classification</h1>
-<p class="lead">Multi-class classification model for body composition categories using physical measurements and machine learning evaluation techniques.</p>
+<p class="lead">A classification project using physical measurements to predict body composition categories and evaluate model quality under realistic validation conditions.</p>
 
 <section class="case-section">
   <div class="section-label">RESEARCH QUESTION</div>
   <div>
-    <h2>Can we accurately classify body type from measurements?</h2>
-    <p>Using anthropometric data (height, weight, and body measurements), can we reliably predict body composition categories?</p>
+    <h2>Can we classify body type from anthropometric measurements?</h2>
+    <p>Using anthropometric variables like height, weight, and body measurements, can a model distinguish between body composition categories with acceptable reliability? The challenge is balancing predictive power with interpretability.</p>
   </div>
 </section>
 
 <section class="case-section">
   <div class="section-label">METHODOLOGY</div>
   <div>
-    <h2>Multi-class classification with rigorous evaluation</h2>
-    <p>Data was split using stratified cross-validation. Multiple classifiers were trained and evaluated using precision, recall, F1-score, and confusion matrices.</p>
+    <h2>Multi-class classification with validation</h2>
+    <p>I tested multiple classifiers using stratified validation and evaluated them via precision, recall, F1-score, and confusion matrices. The focus was not only accuracy, but also which classes were harder to distinguish.</p>
   </div>
 </section>
 
@@ -27,9 +27,9 @@ permalink: /projects/anthropometric-classification/
   <div class="section-label">MODEL PERFORMANCE</div>
   <div>
     <ul>
-      <li>Best model achieved 87% weighted F1-score across 3 classes</li>
-      <li>Random forest showed stronger generalization in cross-validation</li>
-      <li>Class-specific analysis revealed more difficulty distinguishing borderline cases</li>
+      <li>Best-performing model achieved strong weighted F1 performance across classes.</li>
+      <li>Random forest and boosting methods offered better generalization than simple baselines.</li>
+      <li>Boundary cases remained the hardest to classify, suggesting real-world ambiguity.</li>
     </ul>
   </div>
 </section>

@@ -5,13 +5,13 @@ permalink: /projects/ironman-regression/
 ---
 <p class="eyebrow">03 · REGRESSION · ANALYSIS</p>
 <h1>Ironman Data Analysis</h1>
-<p class="lead">Exploratory regression analysis and visualization of Ironman competition performance data.</p>
+<p class="lead">A regression-focused analysis examining how athlete traits and course conditions influence race performance.</p>
 
 <section class="case-section">
   <div class="section-label">RESEARCH QUESTION</div>
   <div>
     <h2>What factors predict finishing time?</h2>
-    <p>Do athlete demographics, training history, and course characteristics systematically affect race outcomes?</p>
+    <p>Do athlete demographics, prior race experience, and course conditions systematically explain variation in Ironman finishing times? This analysis looks at performance in a way that is both interpretable and actionable.</p>
   </div>
 </section>
 
@@ -19,7 +19,7 @@ permalink: /projects/ironman-regression/
   <div class="section-label">APPROACH</div>
   <div>
     <h2>Regression and visualization</h2>
-    <p>Multiple regression models were fitted to predict finishing time using athlete age, prior finishes, and race difficulty. Results were visualized with scatter plots, residual diagnostics, and regression coefficient plots.</p>
+    <p>I used multiple regression to model finishing time as a function of athlete age, prior experience, and environmental characteristics. Visual diagnostics were included to assess fit, variance, and residual structure.</p>
   </div>
 </section>
 
@@ -27,9 +27,9 @@ permalink: /projects/ironman-regression/
   <div class="section-label">KEY INSIGHTS</div>
   <div>
     <ul>
-      <li>Age is a strong predictor; performance peaks around 35–40 years old</li>
-      <li>Prior Ironman finishes indicate experience; first-timers show higher variability</li>
-      <li>Course difficulty (altitude, weather) explains 20–30% of time variation</li>
+      <li>Age and experience matter significantly to finishing time.</li>
+      <li>Course difficulty explains meaningful variance in performance.</li>
+      <li>Residual diagnostics suggest potential nonlinear effects and outlier influence.</li>
     </ul>
   </div>
 </section>

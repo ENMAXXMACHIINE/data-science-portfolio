@@ -13,23 +13,23 @@ permalink: /projects/ai-trading-agent/
 </div>
 
 <div class="evidence-image">
-  <img src="{{ '/assets/images/trading-agent-robustness-score.png' | relative_url }}" alt="Robustness score chart">
+  <img src="{{ '/trading-agent-robustness-score.png' | relative_url }}" alt="AI trading robustness score chart">
 </div>
 
 <div class="metric-grid">
-  <div><small>CERTIFICATION SCORE</small><strong>87.0<span>/100</span></strong><p>Rule-based signal, corrected</p></div>
-  <div><small>CERTIFIED SIGNAL</small><strong>Rule-based</strong><p>Market-timing decisions</p></div>
-  <div><small>REAL CAPITAL</small><strong>$0</strong><p>Paper & historical only</p></div>
+  <div><small>CERTIFICATION SCORE</small><strong>87.0<span>/100</span></strong><p>rule-based signal, corrected</p></div>
+  <div><small>CERTIFIED SIGNAL</small><strong>Rule-based</strong><p>market-timing decisions</p></div>
+  <div><small>REAL CAPITAL</small><strong>$0</strong><p>paper & historical only</p></div>
   <div><small>BREACH PROBABILITY</small><strong>10.2%<span>/yr</span></strong><p>15% drawdown guardrail</p></div>
-  <div><small>OPEN DECISIONS</small><strong>3</strong><p>Weights, f3, f7</p></div>
-  <div><small>EFFECTIVE BREADTH</small><strong>7.2<span>/12</span></strong><p>Independent breadth</p></div>
+  <div><small>OPEN DECISIONS</small><strong>3</strong><p>weights, f3, f7</p></div>
+  <div><small>EFFECTIVE BREADTH</small><strong>7.2<span>/12</span></strong><p>independent breadth</p></div>
 </div>
 
 <section class="case-section">
   <div class="section-label">THE SYSTEM</div>
   <div>
     <h2>From model to agent.</h2>
-    <p>Rather than treating trading as a single prediction model, the system connects forecasting, strategy logic, portfolio decisions, execution behavior, and safety limits into a single pipeline with separate validation stages.</p>
+    <p>Rather than treating trading as a single prediction model, this system connects forecasting, strategy logic, portfolio decisions, execution behavior, and safety limits into one research pipeline. The goal is not only to forecast returns, but to build a system that can be inspected and stress-tested under different conditions.</p>
   </div>
 </section>
 
@@ -55,7 +55,7 @@ permalink: /projects/ai-trading-agent/
   <div class="section-label">WHAT HELD UP</div>
   <div class="callout success">
     <h2>Guardrails were the strongest part of the system.</h2>
-    <p>The validation framework reports six numeric rules plus a kill switch, adversarially tested across multiple market regimes.</p>
+    <p>The validation framework reports six numeric rules plus a kill switch, adversarially tested across multiple market regimes. That makes the system more resilient in the face of extreme and unstable conditions.</p>
   </div>
 </section>
 

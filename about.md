@@ -41,6 +41,6 @@ permalink: /about/
   <div class="label">RESUME</div>
   <div>
     <h2>Education, experience, and projects.</h2>
-    <p><a class="link" href="{{ '/resume.pdf' | relative_url }}">Download Resume (PDF) →</a></p>
+    <p><a class="link" href="https://docs.google.com/document/d/1HLsd70J9zPWS_6_bFxIHmDfrG6YsBr4sZcPtDP-IRzU/edit?usp=drive_link" target="_blank" rel="noopener noreferrer">View Resume (Google Doc) →</a></p>
   </div>
 </section>
